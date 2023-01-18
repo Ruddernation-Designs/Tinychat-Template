@@ -1,3 +1,6 @@
+# Currently working on the version for this so check up on it in a few days maybe, Just be patient please.
+
+
 # Tinychat-API
 This version of the Tinychat API is for a website running PHP without the need for WordPress, Just upload and go.
 

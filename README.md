@@ -1,4 +1,4 @@
-# Tinychat-API & Tinchat Video Chat
+# Tinychat-API & Tinychat Video Chat
 
 This now conatins the files for both the Tinychat API and Tinychat video chat,
 <br>This is for websites running PHP, Simply download the files and upload to your webserver, 

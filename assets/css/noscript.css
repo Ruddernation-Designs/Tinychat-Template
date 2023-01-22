@@ -1,0 +1,11 @@
+/* Carousel */
+
+	.carousel {
+		overflow-x: auto;
+	}
+
+/* Header */
+
+	body.homepage.is-preload #header:after {
+		opacity: 0;
+	}

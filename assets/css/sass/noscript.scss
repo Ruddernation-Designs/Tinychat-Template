@@ -1,0 +1,24 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+
+/* Carousel */
+
+	.carousel {
+		overflow-x: auto;
+	}
+
+/* Header */
+
+	body.homepage {
+		&.is-preload {
+			#header {
+				&:after {
+					opacity: 0;
+				}
+			}
+		}
+	}

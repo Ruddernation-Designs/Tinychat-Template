@@ -25,7 +25,7 @@
 							<header>
 								<h1><a href="/" id="logo">Tinychat Video Chat</a></h1>
 								<hr />
-								<p>Come and join this HTML5 video chat and make some new friends.</p>
+								<p> Join this HTML5 video chat and make new friends.</p>
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">Touch!</a>
@@ -73,13 +73,13 @@
 						<header>
 							<p>
 								<form method="post" class="form">
-<input type="text" name="room" title="Enter the Tinychat, Room Name, If it does not exist then it will create the room for you." tabindex="1" placeholder="Enter the Tinychat room you would like to join." id="roomname" list="roomdata" autocomplete="on" required/>
+<input type="text" name="room" title="Enter the Tinychat room name. If it does not exist, then it will create the room for you." tabindex="1" placeholder="Enter the Tinychat room you would like to join." id="roomname" list="roomdata" autocomplete="on" required/>
 <input type="hidden" name="submitted" value="true">
 <br><input type="submit" class="button" tabindex="2" value="Enter"/> <a href="" data-text="rnd<?php echo GenerateHash(10); ?>" class="button">Random Room</a>
 <!-- Tinychat Video Chat Start -->
 <?php
 #This is the code to access and display the information of the user,
-#As this is old code some of it maybe showing that it's deprecated or will be in the next few releases of PHP.
+#As this is old code, some of it may be showing that it's deprecated or will be in the next few releases of PHP.
 $room = filter_input(INPUT_POST, 'room'); 
 									if(preg_match('/^[a-z0-9]/', $room=strtolower($room)))
 									{
@@ -117,10 +117,10 @@ return $Hash;
 <!-- Tinychat Video Chat End -->
 			<br><br>
 			<h3>Are you having issues with your account not showing you're logged in?</h3><br>
-			<p>For those of you having issues with being logged in on your account, then please read below.<br>
-					I've tested this using Firefox, Edge and Chrome on Windows 10/11, MacOS versions (Monterey/Big Sur)  &amp; Linux versions (Ubuntu/Kali/Mint/Zorin) with it working on the browsers, There is an issue with Chrome on Windows 10, but that was about 12 months ago and has most probably been fixed now.<br>
+			<p>For those of you having issues with being logged in to your account, please read below.<br>
+					I've tested this using Firefox, Edge, and Chrome on Windows 10/11, macOS versions (Monterey/Big Sur)  &amp; Linux versions (Ubuntu/Kali/Mint/Zorin) with it working on the browsers, There is an issue with Chrome on Windows 10, but that was about 12 months ago and has most probably been fixed now.<br>
 					Install a cookie editor on your browser,<br>
-					Open developer tools on your browser, then locate your cookie editor, search for tinychat.com and locate a cookie named "remember_random-number", then change the value for "Same Site" to "none" and remove the tick for "HttpOnly" and add a tick in "Secure", Check here for <a href="https://wordpress.org/plugins/tc-video-chat/#screenshots" title="Screenshots from my WordPress plugin" target="_blank">screenshots.</a><br>
+					Open developer tools in your browser, then locate your cookie editor, search for tinychat.com and locate a cookie named "remember_random-number", then change the value for "Same Site" to "none" and remove the tick for "HttpOnly" and add a tick in "Secure", Check here for <a href="https://wordpress.org/plugins/tc-video-chat/#screenshots" title="Screenshots from my WordPress plugin" target="_blank">screenshots.</a><br>
 					Once complete, open the <a href="https://www.ruddernation.com/chat" title="Tinychat Video Chat">chat</a> page and refresh, you should now be logged in with your account showing.</p>
 							</article >
 <!-- Footer -->
